@@ -93,7 +93,7 @@ def analyze():
 
         response = {
             "algo": algorithm,
-            "items": sizes,
+            "items": n,
             "steps": steps,
             "start_time": int(start_ns),
             "end_time": int(end_ns),
