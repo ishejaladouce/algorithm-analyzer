@@ -99,7 +99,9 @@ def analyze():
             "end_time": int(end_ns),
             "total_time_ms": round(final_ms, 3),
             "time_complexity": get_time_complexity(algorithm),
-            "path_to_graph": graph_data
+            "path_to_graph": graph_data,
+            # "download_url": f"http://localhost:3000/download-graph?algo={algorithm}&n={n}"
+
         }
 
         return jsonify(response)
